@@ -1,7 +1,11 @@
-<?php for($i = 10; $i >= 1; $i=$i-0.5){
+<?php 
+$a = array()
+for($i=1;$i<11;$i++){
+    for($j = 1;$j < 11; $j++){
 
-    echo $i.'<br>';
-    
+        echo $j*$i.' ';
+        if ($j * $i > 9){echo ' ';}
+    }
+    echo '<br>';
 }
-
 ?>

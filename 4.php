@@ -1,12 +1,11 @@
-<?php 
-$sum = 0;
-for($i = 0; $i <=20;$i++){
-    if ($i%2 ==0){
-        
-        continue;}
-    $sum = $sum + $i;
+<?php
+
+
+$liczby = [10, 25, 99, 31, 01, -15];
+$sc = 0;
+foreach($liczby as $l){
+    $sc += $l;
+    
 }
-
-echo $sum;
-
+echo $sc;
 ?>

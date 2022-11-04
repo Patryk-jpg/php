@@ -1,9 +1,16 @@
+<?php 
 
+$liczby = [10,
+15, 9, 61, 78, 2, 44, 21, 30];
+$score = 0;
+foreach($liczby as $l){
+    if ($score < $l){
+        $score = $l;
+    }
 
-<?php
-$strr ='';
-for($i= 1;$i <= 9; $i++)
-{if($i <9){$strr = $strr.strval($i).'-';}else{$strr = $strr.strval($i);};
 }
-echo $strr;
+echo $score;
+
+
+
 ?>

@@ -1,11 +1,9 @@
 <?php 
-$i = 0;
-$str = 'PHP';
-while($i <=10){
-    echo $str.strval($i).' ';
-    $i++;
+
+$auta =
+["VW", "Audi", "BMW", "Mercedes"];
+
+foreach($auta as $a){
+    echo $a.'<br>';
 }
-
-
-
-    ?>
+?>
